@@ -1,0 +1,79 @@
+/* NB this CSS is global and applies to whole WP-admin area */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
+
+.hwsync {
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  margin: 50px 25px;
+  color: #191919;
+}
+
+@media screen and (min-width: 800px) {
+  .hwsync {
+    font-family: 'Jost', sans-serif;
+    margin: 105px 75px;
+  }
+}
+
+.hwsync__logo {
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  .hwsync__logo {
+    text-align: left;
+  }
+}
+
+.hwsync__description {
+  display: flex;
+  gap: 10px;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+  max-width: 850px;
+}
+
+@media screen and (min-width: 800px) {
+  .hwsync__description {
+    flex-direction: row;
+    gap: 75px;
+  }
+}
+
+.hwsync__content {
+  color: #191919;
+}
+
+.hwsync__description-title {
+  font-size: 24px;
+  line-height: 1.2em;
+  color: #373f47;
+  margin-top: 0;
+  font-weight: 400;
+  color: #000;
+}
+
+.hwsync__description-text {
+  font-size: 16px;
+}
+
+.hwsync__description-link,
+.hwsync__description-link:hover {
+  color: #191919;
+}
+
+.hwsync__btngroup {
+  display: flex;
+}
+
+.hwsync__btn,
+.hwsync__btn:hover {
+  padding: 11px 27px;
+  background: #3a3a3a;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+}
